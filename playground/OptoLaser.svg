@@ -1,0 +1,67 @@
+<!DOCTYPE svg [<!ENTITY nbsp "&#160;">]><svg width="100%" height="268pt" viewBox="0.00 0.00 218.00 268.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 264)">
+<title>state transitions</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-264 214,-264 214,4 -4,4"></polygon>
+<g id="clust1" class="cluster state regular">
+<title>cluster_C1</title>
+<path fill="none" stroke="#000000" stroke-width="2" d="M20,-47C20,-47 190,-47 190,-47 196,-47 202,-53 202,-59 202,-59 202,-209 202,-209 202,-215 196,-221 190,-221 190,-221 20,-221 20,-221 14,-221 8,-215 8,-209 8,-209 8,-59 8,-59 8,-53 14,-47 20,-47"></path>
+<text text-anchor="start" x="23.9742" y="-202.2" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#000000">C1: Optogenetic Laser Pattern</text>
+</g>
+<!-- initial -->
+<g id="node1" class="node state initial">
+<title>initial</title>
+<ellipse fill="#000000" stroke="#000000" stroke-width="2" cx="194" cy="-254.5" rx="5.5" ry="5.5"></ellipse>
+</g>
+<!-- C1 -->
+<!-- initial&#45;&gt;C1 -->
+<g id="edge1" class="edge transition">
+<title>initial-&gt;C1</title>
+<path fill="none" stroke="#000000" d="M194,-248.8716C194,-244.7113 194,-238.536 194,-231.3438"></path>
+<polygon fill="#000000" stroke="#000000" points="197.5001,-230.9998 194,-220.9998 190.5001,-230.9998 197.5001,-230.9998"></polygon>
+<text text-anchor="middle" x="195.3895" y="-232" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> </text>
+</g>
+<!-- final -->
+<g id="node2" class="node state final">
+<title>final</title>
+<ellipse fill="#000000" stroke="#000000" stroke-width="2" cx="108" cy="-9.5" rx="5.5" ry="5.5"></ellipse>
+<ellipse fill="none" stroke="#000000" stroke-width="2" cx="108" cy="-9.5" rx="9.5" ry="9.5"></ellipse>
+</g>
+<!-- C1S1 -->
+<g id="node4" class="node state regular">
+<title>C1S1</title>
+<polygon fill="#ffffff" fill-opacity="0.003922" stroke="transparent" stroke-width="2" points="172,-183 16,-183 16,-137 172,-137 172,-183"></polygon>
+<text text-anchor="start" x="21.6586" y="-166.2" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#000000">S1: Active: 20Hz-5ms 1min</text>
+<text text-anchor="start" x="22" y="-146.2" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#000000">💡blink (20Hz-5ms 1min)</text>
+<polygon fill="#000000" stroke="#000000" points="16,-160 16,-160 172,-160 172,-160 16,-160"></polygon>
+<path fill="none" stroke="#000000" stroke-width="2" d="M29,-138C29,-138 159,-138 159,-138 165,-138 171,-144 171,-150 171,-150 171,-170 171,-170 171,-176 165,-182 159,-182 159,-182 29,-182 29,-182 23,-182 17,-176 17,-170 17,-170 17,-150 17,-150 17,-144 23,-138 29,-138"></path>
+</g>
+<!-- C1S2 -->
+<g id="node5" class="node state regular">
+<title>C1S2</title>
+<polygon fill="#ffffff" fill-opacity="0.003922" stroke="transparent" stroke-width="2" points="171.5,-91 44.5,-91 44.5,-55 171.5,-55 171.5,-91"></polygon>
+<text text-anchor="start" x="55.8248" y="-69.2" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#000000">S2: Resting: 4-5min</text>
+<path fill="none" stroke="#000000" stroke-width="2" d="M56.8333,-56C56.8333,-56 159.1667,-56 159.1667,-56 164.8333,-56 170.5,-61.6667 170.5,-67.3333 170.5,-67.3333 170.5,-78.6667 170.5,-78.6667 170.5,-84.3333 164.8333,-90 159.1667,-90 159.1667,-90 56.8333,-90 56.8333,-90 51.1667,-90 45.5,-84.3333 45.5,-78.6667 45.5,-78.6667 45.5,-67.3333 45.5,-67.3333 45.5,-61.6667 51.1667,-56 56.8333,-56"></path>
+</g>
+<!-- C1S1&#45;&gt;C1S2 -->
+<g id="edge2" class="edge transition">
+<title>C1S1-&gt;C1S2</title>
+<path fill="none" stroke="#000000" d="M85.6463,-136.9455C83.4906,-127.8182 82.46,-117.3038 85.221,-108 86.0061,-105.3545 87.0612,-102.722 88.2888,-100.157"></path>
+<polygon fill="#000000" stroke="#000000" points="91.443,-101.6896 93.3154,-91.2615 85.3486,-98.2458 91.443,-101.6896"></polygon>
+<text text-anchor="middle" x="86.3895" y="-111" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> </text>
+</g>
+<!-- C1S2&#45;&gt;final -->
+<g id="edge3" class="edge transition">
+<title>C1S2-&gt;final</title>
+<path fill="none" stroke="#000000" d="M108,-54.9733C108,-47.0074 108,-37.6145 108,-29.4397"></path>
+<polygon fill="#000000" stroke="#000000" points="111.5001,-29.2957 108,-19.2957 104.5001,-29.2958 111.5001,-29.2957"></polygon>
+<text text-anchor="start" x="108" y="-30" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">n=5 &nbsp;&nbsp;</text>
+</g>
+<!-- C1S2&#45;&gt;C1S1 -->
+<g id="edge4" class="edge transition">
+<title>C1S2-&gt;C1S1</title>
+<path fill="none" stroke="#000000" d="M105.0817,-91.1355C103.4357,-101.3637 101.3271,-114.4674 99.3918,-126.4937"></path>
+<polygon fill="#000000" stroke="#000000" points="95.885,-126.2565 97.7517,-136.6856 102.7961,-127.3687 95.885,-126.2565"></polygon>
+<text text-anchor="start" x="102" y="-111" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">t=4-6min &nbsp;&nbsp;</text>
+</g>
+</g>
+</svg>

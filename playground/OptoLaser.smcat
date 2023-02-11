@@ -1,0 +1,10 @@
+initial,
+final,
+C1 [label="C1: Optogenetic Laser Pattern"]{
+	C1S1 [label="S1: Active: 20Hz-5ms 1min"]:"💡blink (20Hz-5ms 1min)",
+	C1S2 [label="S2: Resting: 4-5min"]:"";
+};
+initial => C1;
+C1S1 => C1S2: ;
+C1S2 => final: n=5;
+C1S2 => C1S1: t=4-6min;
