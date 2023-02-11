@@ -31,3 +31,4 @@ Or install local smcat by
 ![Go_NoGo](playground/Go_NoGo.svg)
 
 + The OptoLaser task
+![OptoLaser](playground/OptoLaser.svg)
