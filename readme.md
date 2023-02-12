@@ -27,8 +27,8 @@ Or install local smcat by
 >
 > smcat playground/Go_NoGo.smcat
 
-+ The Go/NoGo task
-![Go_NoGo](playground/Go_NoGo.svg)
+### The Go/NoGo task
+<img src="playground/Go_NoGo.svg" height=600>
 
-+ The OptoLaser task
+### The OptoLaser task
 ![OptoLaser](playground/OptoLaser.svg)
